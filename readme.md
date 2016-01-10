@@ -3,7 +3,7 @@
 We run. And then we drink coffee.
 Organized by Karl Noelle.
 
-## Trial
+## another change to document!
 
 You can try Kirby on your local machine or on a test
 server as long as you need to make sure it is the right
