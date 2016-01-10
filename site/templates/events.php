@@ -15,9 +15,7 @@
 		<iframe style="display: block;" width='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/karlnoelle.l6m26069/attribution,geocoder,share.html?access_token=pk.eyJ1Ijoia2FybG5vZWxsZSIsImEiOiJLZ05BbmJjIn0.dmxuWzq3fbEO8G61e65S9Q'></iframe>
 	</section>
 	
-	<section class="calendar">
-		<iframe src="https://calendar.google.com/calendar/embed?src=0bvr80q9slk1g1fq01tj2n09k0%40group.calendar.google.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-	</section>
+	<!-- room for calendar someday? -->
 	
 	<section class="wrapper">
 		<h2>See our past events! Yeah!</h2>
