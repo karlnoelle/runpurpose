@@ -1,7 +1,7 @@
-# Kirby
+# Running for a Purpose
 
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+We run. And then we drink coffee.
+Organized by Karl Noelle.
 
 ## Trial
 
