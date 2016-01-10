@@ -1,0 +1,24 @@
+Title: Nutrition
+
+----
+
+Headline: Real food. Real performance.
+
+----
+
+Text: 
+
+----
+
+textCol1:##Eat Real Food
+The secrets to a healthy way of life aren’t shrouded in mystery. By now, we all know that consuming processed food and downing a 12pk of pop aren’t going to get us across that finish line any faster. Quality food matters! Treat your body well and it will respond.
+
+----
+
+textCol2:##Protein, Fat & Carbs
+As a general rule, balance each meal (breakfast, lunch, dinner) with these three macronutrients. Trendy fad diets only serve to disappoint us and can sometimes be very unhealthy by eliminating one of these 3 components. Adopting a (link: http://healthysimplelife.com/pfc-balanced-eating-part-1-what-is-pfc/ text: PFC lifestyle popup: yes) makes sure you’re giving your body exactly what it needs each time. 
+
+----
+
+textCol3:##For runners, by runners
+You won’t find any advice here that one of our runners hasn’t tried before. So rest assured that all the advice on this site is practiced by at least one R4AP runner. We’re a friendly bunch, so if you have any questions, just ask!

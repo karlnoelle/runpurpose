@@ -1,0 +1,27 @@
+Title: Home
+
+----
+
+Headline: Running for a Purpose is a weekly running club in Minneapolis
+
+----
+
+Text: 
+
+----
+
+textCol1:(image: passion-icon.png class: col-img)
+##Passionate Runners
+Everyone has their own reasons for running, but the unifying layer beneath it all is Passion. We believe putting 100% into something yields the most rewarding experiences. Run with Purpose!
+
+----
+
+textCol2:(image: community-icon.png class: col-img)
+##Building Community
+We believe in building authentic friendships with each other as we train! Running is so much more fun with friends — especially during those -10º sessions ;-)
+
+----
+
+textCol3:(image: coffee-icon.png class: col-img)
+##Coffee Addicts
+We run, and then we drink coffee! It’s the perfect combination. Following each run, we meet at a local coffee shop around Uptown and hang out before starting the weekend.

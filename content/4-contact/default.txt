@@ -1,0 +1,29 @@
+Title: Contact
+
+----
+
+Pic: (image: squad.jpg)
+
+----
+
+Headline: We want to hear from you!
+
+----
+
+Text: 
+
+Whether you’re a seasoned athlete or just dipping your toes into running, we want you to join us!
+
+## Glorious Social Media
+
+- (link: https://www.facebook.com/groups/runningforapurpose/ text: Facebook)
+- (link: https://instagram.com/runpurpose text: Instagram)
+- (link: https://twitter.com/runpurpose text: Twitter)
+- <runner@runpurpo.se>
+
+## Talk to Karl
+
+Got a question for Karl? Hit him up:
+
+- Twitter: (link: https://twitter.com/karlnoelle text: @karlnoelle)
+- Email: <karl@runpurpo.se>

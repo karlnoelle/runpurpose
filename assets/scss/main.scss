@@ -1,0 +1,592 @@
+/*
+
+Running for a Purpose
+
+Author: Karl Noelle
+URL:    http://foreverfascinated.co
+Email:  info@karlnoelle.com
+
+*/
+
+
+/* Reset
+-------------------------------------------------- */
+@import "normalize.css";
+
+
+/* Variables
+-------------------------------------------------- */
+
+$R4AP-red: #FF0049;
+$R4AP-redhover: #C2063C;
+$R4AP-green: #29BEB7;
+$R4AP-gray: #545454;
+
+
+/* Pix & Misc
+-------------------------------------------------- */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+	background-color: rgba(41, 190, 183, 0.3);
+	color: $R4AP-gray;
+}
+
+
+/* Links
+-------------------------------------------------- */
+a {
+  color: $R4AP-gray;
+  text-decoration: none;
+  transition: color .3s, background .3s, border .3s;
+}
+
+a:hover {
+  color: $R4AP-red;
+}
+
+.main a {
+	  border-bottom: 1px solid $R4AP-red;
+}
+
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Site
+-------------------------------------------------- */
+html {
+  height: 101%;
+  font-family: "proxima-nova-condensed",sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: #fff;
+  color: $R4AP-gray;
+  font-size: 1.25em;
+}
+
+.wrapper {
+	max-width: 58em;
+	margin: 0 auto;
+	padding: 0em 3em;
+	overflow: auto;
+	.iframe-wrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		iframe {
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+
+.flex-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	article {
+		width: 30%;
+		h2 {
+			font-size: 1.3em;
+			text-align: center;
+			margin-top: 0.4em;
+		}
+		.col-img {
+			width: 35%;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+/* Header
+-------------------------------------------------- */
+.logo {
+  display: block;
+  margin-bottom: 1.5em;
+}
+.logo img {
+  width: 6em;
+}
+
+.header {
+	margin-top: 2em;
+}
+
+
+/* Logo + Navigation
+-------------------------------------------------- */
+.logo {
+	float: left;
+}
+
+nav {
+	ul {
+		li {
+			a {
+				color: $R4AP-gray;
+				padding: .5em;
+				font-weight: 300;
+				&:hover {
+					color: $R4AP-red;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------------
+  NAVIGATION STYLES
+  (+ responsive-nav.css file is loaded in the <head>)
+--------------------------------------------- */
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-collapse {
+	width: 100%;
+	margin-bottom: 1.5em;
+	ul {
+		list-style: none;
+		float: left;
+		li {
+			float: left;
+			width: 48%;
+			border: 1px solid #29BEB7;
+			margin: 1%;
+		}
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.nav-collapse {
+		width: inherit;
+		ul {
+			float: right;
+			li {
+				width: inherit;
+				border: none;
+				margin: 0;
+			}
+		}
+	}
+}
+
+.nav-collapse a {
+  color: $R4AP-gray;
+  text-decoration: none;
+  width: 100%;
+  padding: 0.7em 1em;
+  float: right;
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse a {
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid white;
+  }
+}
+
+.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("../fonts/responsivenav.eot");
+  src:url("../fonts/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/responsivenav.ttf") format("truetype"),
+    url("../fonts/responsivenav.woff") format("woff"),
+    url("../fonts/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: $R4AP-green; /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
+
+
+/* Typography
+-------------------------------------------------- */
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+
+h2 {
+  font-size: 1.7rem;
+  line-height: 1.25em;
+  font-weight: 300;
+  margin-bottom: .5em;
+  color: red;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+  color: red;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+
+/* Main + Map
+-------------------------------------------------- */
+.main {
+  padding-bottom: 1.5em;
+  .wrapper {
+	  figure {
+		  &.col-img {
+			  img {
+				  float: none;
+				  max-width: none;
+				  padding: 0;
+				  width: 100%;
+				  }
+		  }
+		  img {
+			  float: right;
+			  max-width: 60%;
+			  padding: 0em 0em 0em 1em;
+		  }
+	  }
+	  .article-links {
+		  .flex-container {
+			  margin: 0;
+			  padding: 0;
+			  li {
+				  width: 22%;
+				  list-style-type: none;
+				  border: 1px solid $R4AP-gray;
+				  border-radius: 5px;
+				  text-align: center;
+				  a {
+					  padding: 1em;
+					  display: block;
+					  border: none;
+					  margin: auto;
+					  color: $R4AP-gray;
+					  &:hover {
+						  color: $R4AP-red;
+					  }
+				  }
+				  &:hover {
+					  border-color: $R4AP-red;
+				  }
+			  }
+		  }
+	  }
+	  ul {
+		  li {
+			margin: 0.5em 0em;
+		  }
+	  }
+		.article-content {
+			width: 50%;
+			float: left;
+		}
+		.article-img {
+			overflow: auto;
+			img {
+				max-width: none;
+				width: 100%;
+			}
+		}
+  }
+  .map {
+		padding: 2em 0em 0em;
+		-webkit-overflow-scrolling:touch;
+		iframe {
+			height: 22em;
+			-webkit-overflow-scrolling:touch;
+		}
+	}
+	.headline {
+		text-align: center;
+		margin: 0.5em 4em;
+		font-size: 2.3em;
+		padding: 0;
+		border-radius: 0.4em;
+		color: #929292;
+		font-weight: 300;
+		letter-spacing: 0.01em;
+		p {
+			margin: 0;
+		}
+	}
+}
+.main hr {
+  margin: 3em 0;
+  height: 2px;
+  background: #ddd;
+}
+
+/* Instafeed y'all */
+#instafeed {
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+		a {
+		width: 23%;
+		border: none;
+			@media screen and (max-width:800px) {
+			width: 48%;
+			}
+			@media screen and (max-width:450px) {
+			width: 100%;
+			}
+			img {
+			border: 1px solid #676163;
+			border-radius: 0.7em;
+			margin: 0em 0em 1em 0em;
+			padding: 0em;
+			width: 100%;
+			transition: 150ms all ease-in-out;
+			&:hover {
+			opacity: .5;
+			box-shadow: 1px 1px 3px rgba(71, 67, 67, 0.76);
+			border: 1px solid #FF0049;
+			}
+		}
+	}
+}
+
+/* Project teaser
+-------------------------------------------------- */
+.teaser {
+  list-style: none;
+}
+.teaser li {
+  margin-bottom: 1.5em;
+  list-style: none;
+}
+@media screen and (min-width: 50em) {
+  .teaser li {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .teaser li:first-child {
+    margin-left: 0;
+  }
+}
+
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+	margin-bottom: 2em;
+	.footer-wrapper {
+		border-top: 2px solid red;
+		overflow: auto;
+		.social-footer {
+			margin:1em 0em;
+			a {
+				margin: 0em .4em;
+				padding: 0em .6em;
+			}
+		}
+	}
+	.colophon, .copyright {
+		font-size: .8em;
+	}
+}
+
+
+/* Media Queries
+-------------------------------------------------- */
+
+@media (max-width: 1000px) {
+	.wrapper {
+		.text {
+			.headline {
+				margin: 0;
+			}
+		}
+	}
+	
+	}
+
+
+
+
+
+@media (max-width: 750px) {
+	.wrapper {
+		padding: 0em 1em;
+		.footer-wrapper {
+			.social-footer {
+				order: 1;
+				margin: 0.7em auto;
+				text-align: center;
+				font-size: 1.6em;
+			}
+			.copyright {
+				order: 2;
+			}
+			.colophon {
+				order: 3;
+			}
+			.copyright, .social-footer, .colophon {
+				width: 100%;
+			}
+			.copyright p, .colophon p {
+				margin: .1em 0em;
+			}
+		}
+	}
+	.main {
+		.wrapper {
+			padding: 0em 1em;
+			.flex-container {
+				article {
+					width: 100%;
+				}
+			}
+			.text {
+				.headline {
+					margin: 0;
+					font-size: 1.8em;
+				}
+			}
+			figure {
+				margin: 0 auto;
+				img {
+					max-width: 100%;
+					padding: 0em 0em 1em 0em;
+					float: none;
+				}
+			}
+			.article-links {
+				.flex-container {
+					li {
+						width: 100%;
+					    margin: 0.5em 0em;
+					}
+				}
+			}
+			.article-content {
+				width: 100%;
+			}
+			.article-img {
+				overflow: inherit;
+			}
+		}
+		.map {
+			padding: 1em 1em 0em;
+		}
+	}	
+}
+

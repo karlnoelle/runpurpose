@@ -1,0 +1,5 @@
+Title: Error
+
+----
+
+Text: This page has run away.

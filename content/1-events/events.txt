@@ -1,0 +1,27 @@
+Title: Events
+
+----
+
+Headline: 9:00AM • Saturday • Tin Fish • Uptown
+
+----
+
+textCol1:(image: event-icon.png class: col-img)
+##Meet us at the Lake
+There is beauty in consistency, and R4AP is no exception! Same place, same time, year-round. We meet at the Tin Fish Restaurant right next to Lake Calhoun:
+(link:https://goo.gl/maps/w9t1cxuWzpv text:3000 E Calhoun Pkwy Minneapolis, MN 55408 class: address popup: yes)
+
+----
+
+textCol2:(image: picture-icon.png class: col-img)
+##The Picture
+We love smiling! Also: no run can begin without a pre-run photo. It’s tradition, if our (link: https://instagram.com/runpurpose/ text: Instagram feed popup: yes) is any indication. Oh, and by reading this you’re giving R4AP permission to distribute the photo for marketing purposes :-P thanks!
+
+----
+
+textCol3:(image: pace-icon.png class: col-img)
+##Pace? Distance? Help!
+Relax! Pace and distance are totally up to you. Some runners show up with headphones and do their own thing around the lake(s), while others stick together and do work around 3+ lakes. That group may run anywhere between 7:00 - 9:00min/mi.
+----
+
+Text: Weekly events are created on Facebook through the (link: https://www.facebook.com/groups/runningforapurpose/ text: Running for a Purpose popup: yes) group. Join today!
