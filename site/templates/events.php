@@ -18,9 +18,9 @@
 	<!-- room for calendar someday? -->
 	
 	<section class="wrapper">
-		<h2>See our past events!</h2>
+		<h2>Past Events</h2>
 		<article id="instafeed"></article>
-		<h2>2015&#146;s recap video!</h2>
+		<h2>Recap of 2015</h2>
 		<article class="iframe-wrapper">
 			<iframe width="100%" height="625" src="https://www.youtube.com/embed/aZ4LcSCAmTY" frameborder="0" allowfullscreen></iframe>
 		</article>
