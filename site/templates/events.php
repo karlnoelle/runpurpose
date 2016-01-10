@@ -18,7 +18,7 @@
 	<!-- room for calendar someday? -->
 	
 	<section class="wrapper">
-		<h2>See our past events! Yeah!</h2>
+		<h2>See our past events!</h2>
 		<article id="instafeed"></article>
 		<h2>2015&#146;s recap video!</h2>
 		<article class="iframe-wrapper">
