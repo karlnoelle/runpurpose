@@ -13,7 +13,7 @@
 			<p>Check out the <a href="events">events page</a> for more pics.</p>
 			<article id="instafeed"></article>
 			<h2>Running today? Check the weather!</h2>
-			<iframe id="forecast_embed" type="text/html" frameborder="0" height="230" width="100%" src="http://forecast.io/embed/#lat=44.948296&lon=-93.306305&name=Uptown, Minneapolis"> </iframe>
+			<iframe id="forecast_embed" type="text/html" frameborder="0" height="230" width="100%" src="https://forecast.io/embed/#lat=44.948296&lon=-93.306305&name=Uptown, Minneapolis"> </iframe>
 		</section>
   </main>
   
