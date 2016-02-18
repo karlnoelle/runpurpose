@@ -12,7 +12,20 @@
 		</section>
 	
 	<section class="map">
-		<iframe style="display: block;" width='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/karlnoelle.l6m26069/attribution,geocoder,share.html?access_token=pk.eyJ1Ijoia2FybG5vZWxsZSIsImEiOiJLZ05BbmJjIn0.dmxuWzq3fbEO8G61e65S9Q'></iframe>
+		<div id="map"></div>
+		<script>
+		mapboxgl.accessToken = 'pk.eyJ1Ijoia2FybG5vZWxsZSIsImEiOiJLZ05BbmJjIn0.dmxuWzq3fbEO8G61e65S9Q';
+		var map = new mapboxgl.Map({
+		    container: 'map',
+		    //style: 'mapbox://styles/mapbox/streets-v8',
+		    style: 'mapbox://styles/karlnoelle/cih734r99000yajmcy6shmxyo',
+		    center: [-93.306808, 44.949185],
+		    zoom: 13.15,
+		    pitch: 40
+		});
+		
+		map.scrollZoom.disable()
+		</script>
 	</section>
 	
 	<!-- room for calendar someday? -->

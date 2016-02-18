@@ -400,11 +400,20 @@ h1 a, h2 a, h3 a, h4 a {
 		}
   }
   .map {
-		padding: 2em 0em 0em;
+		padding: 1em 0em 0em;
 		-webkit-overflow-scrolling:touch;
-		iframe {
-			height: 22em;
-			-webkit-overflow-scrolling:touch;
+		.mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	    }
+	    .marker-title {
+	        font-weight: 700;
+	    }
+		#map {
+			height: 45em;
+			a {
+				border: none;
+			}
 		}
 	}
 	.headline {

@@ -300,11 +300,17 @@ h1 a, h2 a, h3 a, h4 a {
       max-width: none;
       width: 100%; }
   .main .map {
-    padding: 2em 0em 0em;
+    padding: 1em 0em 0em;
     -webkit-overflow-scrolling: touch; }
-    .main .map iframe {
-      height: 22em;
-      -webkit-overflow-scrolling: touch; }
+    .main .map .mapboxgl-popup {
+      max-width: 400px;
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+    .main .map .marker-title {
+      font-weight: 700; }
+    .main .map #map {
+      height: 45em; }
+      .main .map #map a {
+        border: none; }
   .main .headline {
     text-align: center;
     margin: 0.5em 4em;
