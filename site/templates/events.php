@@ -33,9 +33,9 @@
 	<section class="wrapper">
 		<h2>Past Events</h2>
 		<article id="instafeed"></article>
-		<h2>Recap of 2015</h2>
+		<h2>Recap of 2017</h2>
 		<article class="iframe-wrapper">
-			<iframe width="100%" height="625" src="https://www.youtube.com/embed/aZ4LcSCAmTY" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="625" src="https://www.youtube.com/embed/2q1SikPspc8" frameborder="0" allowfullscreen></iframe>
 		</article>
 	</section>
 	
@@ -43,10 +43,11 @@
 
 <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'runpurpose',
-        clientId: '0e2b5338a30748f09486203825c5b8a7',
-        resolution: 'low_resolution',
+		get: 'user',
+		userId: 1599521991,
+        accessToken: '1599521991.e379b40.f12fd0cb846f4393a052b8d6d31c1bd3',
+        clientId: 'e379b40ed45447b5bc829847ec2fdbe2',
+        resolution: 'standard_resolution',
         limit: 12,
     });
     feed.run();

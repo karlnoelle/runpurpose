@@ -19,10 +19,11 @@
   
 <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'runpurpose',
-        clientId: '0e2b5338a30748f09486203825c5b8a7',
-        resolution: 'low_resolution',
+		get: 'user',
+		userId: 1599521991,
+        accessToken: '1599521991.e379b40.f12fd0cb846f4393a052b8d6d31c1bd3',
+        clientId: 'e379b40ed45447b5bc829847ec2fdbe2',
+        resolution: 'standard_resolution',
         limit: 4,
     });
     feed.run();

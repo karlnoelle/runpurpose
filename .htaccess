@@ -49,3 +49,5 @@ RewriteRule ^(.*) index.php [L]
 #RewriteEngine On
 #RewriteCond %{HTTPS} off
 #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+Redirect 301 /stickers    https://itunes.apple.com/us/app/r4ap-stickers/id1165201435?mt=8

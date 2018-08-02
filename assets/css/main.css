@@ -13,37 +13,8 @@ Email:  info@karlnoelle.com
 @import url(normalize.css);
 /* Variables
 -------------------------------------------------- */
-/* Pix & Misc
--------------------------------------------------- */
-img {
-  display: block;
-  max-width: 100%; }
 
-::selection {
-  background-color: rgba(41, 190, 183, 0.3);
-  color: #545454; }
-
-/* Links
--------------------------------------------------- */
-a {
-  color: #545454;
-  text-decoration: none;
-  transition: color .3s, background .3s, border .3s; }
-
-a:hover {
-  color: #FF0049; }
-
-.main a {
-  border-bottom: 1px solid #FF0049; }
-
-/* Clearfix
--------------------------------------------------- */
-.cf:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/* Site
+/* Global
 -------------------------------------------------- */
 html {
   height: 101%;
@@ -54,8 +25,45 @@ html {
 body {
   background: #fff;
   color: #545454;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  cursor: url(../images/cursor-small.png) 1 1, pointer;
+}
 
+/* Links
+-------------------------------------------------- */
+a {
+  color: #545454;
+  text-decoration: none;
+  transition: color .3s, background .3s, border .3s;
+  cursor: url(../images/hand-small.png) 1 1, pointer;
+}
+
+a:hover {
+  color: #FF0049; }
+
+.main a {
+  border-bottom: 1px solid #FF0049; }
+
+
+/* Pix & Misc
+-------------------------------------------------- */
+img {
+  display: block;
+  max-width: 100%; }
+
+::selection {
+  background-color: rgba(41, 190, 183, 0.3);
+  color: #545454; }
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Site
+-------------------------------------------------- */
 .wrapper {
   max-width: 58em;
   margin: 0 auto;

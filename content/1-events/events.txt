@@ -2,20 +2,19 @@ Title: Events
 
 ----
 
-Headline: 9:00AM • Saturday • Tin Fish • Uptown
+Headline: 9:00AM • Saturday • Uptown
 
 ----
 
 textCol1:(image: event-icon.png class: col-img)
 ##Meet us at the Lake
-There is beauty in consistency, and R4AP is no exception! Same place, same time, year-round. We meet at the Tin Fish Restaurant right next to Lake Calhoun:
-(link:https://goo.gl/maps/w9t1cxuWzpv text:3000 E Calhoun Pkwy Minneapolis, MN 55408 class: address popup: yes)
+There is beauty in consistency, and R4AP is no exception! Same day, same time, year-round. We meet at the (link:https://goo.gl/maps/w9t1cxuWzpv text:Tin Fish Restaurant class: address popup: yes) next to Lake Calhoun on Saturday mornings at 9:00am.
 
 ----
 
 textCol2:(image: picture-icon.png class: col-img)
 ##The Picture
-We love smiling! Also: no run can begin without a pre-run photo. It’s tradition, if our (link: https://instagram.com/runpurpose/ text: Instagram feed popup: yes) is any indication. Oh, and by reading this you’re giving R4AP permission to distribute the photo for marketing purposes :-P thanks!
+We love smiling! Also: no run can begin without a pre-run photo. It’s tradition, if our (link: https://instagram.com/runpurpose/ text: Instagram feed popup: yes) is any indication. Oh, and by reading this you’re giving R4AP permission to distribute the photo for marketing purposes 😛 thanks!
 
 ----
 
